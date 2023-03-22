@@ -9,7 +9,7 @@ param resourcePrefix string
   'test'
 ])
 @description('Environment')
-param environment string
+param environment string = 'prod'
 
 @description('Address Prefix')
 param vnetPrefix string = '10.0.0.0/16'
