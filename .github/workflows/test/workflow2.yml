@@ -9,3 +9,16 @@ jobs:
       - name: Hello world
         run: |
           echo "Hello world"
+      - name: Hello world 2
+        run: |
+          echo "Hello world 2"
+          
+  hello-world-3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world
+        run: |
+          echo "Hello world 4"
+      - name: Hello world 2
+        run: |
+          echo "Hello world 6"
